@@ -370,6 +370,6 @@ namespace ZeraSystems.CodeNanite.Expansion
         /// <value><c>true</c> if this instance is search column; otherwise, <c>false</c>.</value>
         public bool IsSearchColumn { get; set; }
 
-
+        public string InverseLabel { get; set; }
     }
 }
