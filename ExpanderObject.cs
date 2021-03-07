@@ -140,5 +140,10 @@ namespace ZeraSystems.CodeNanite.Expansion
         /// </summary>
         /// <value>The help URL.</value>
         public string HelpUrl { get; set; }
+
+        public int LinkedExpander { get; set; }
+        public int ExpanderType { get; set; }
+        public string SearchString { get; set; }
+        public string ReplacementString { get; set; }
     }
 }
