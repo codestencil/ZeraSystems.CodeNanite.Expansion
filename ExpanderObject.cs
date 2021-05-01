@@ -12,6 +12,7 @@
 // <summary></summary>
 // ***********************************************************************
 
+using System;
 using ZeraSystems.CodeStencil.Contracts;
 
 namespace ZeraSystems.CodeNanite.Expansion
@@ -145,5 +146,10 @@ namespace ZeraSystems.CodeNanite.Expansion
         public int ExpanderType { get; set; }
         public string SearchString { get; set; }
         public string ReplacementString { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public bool ShowInConfiguration { get; set; }
+        public bool IsStencilConfigValue { get; set; }
+        public Guid NodeIdentifier { get; set; }
     }
 }
