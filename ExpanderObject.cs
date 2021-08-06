@@ -151,5 +151,7 @@ namespace ZeraSystems.CodeNanite.Expansion
         public bool ShowInConfiguration { get; set; }
         public bool IsStencilConfigValue { get; set; }
         public Guid NodeIdentifier { get; set; }
+        public string PreText { get; set; }
+        public string PostText { get; set; }
     }
 }
