@@ -371,5 +371,12 @@ namespace ZeraSystems.CodeNanite.Expansion
         public bool IsSearchColumn { get; set; }
 
         public string InverseLabel { get; set; }
+        public bool IsDtoColumn { get; set; }
+        public string StringField1 { get; set; }
+        public string StringField2 { get; set; }
+        public string StringField3 { get; set; }
+        public bool BoolField1 { get; set; }
+        public bool BoolField2 { get; set; }
+        public bool BoolField3 { get; set; }
     }
 }
