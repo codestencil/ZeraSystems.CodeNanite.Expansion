@@ -153,5 +153,7 @@ namespace ZeraSystems.CodeNanite.Expansion
         public Guid NodeIdentifier { get; set; }
         public string PreText { get; set; }
         public string PostText { get; set; }
+        public string Tables { get; set; }
+        public string Columns { get; set; }
     }
 }
