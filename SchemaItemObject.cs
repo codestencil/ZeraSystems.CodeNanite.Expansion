@@ -378,5 +378,7 @@ namespace ZeraSystems.CodeNanite.Expansion
         public bool BoolField1 { get; set; }
         public bool BoolField2 { get; set; }
         public bool BoolField3 { get; set; }
+        public string ContextName { get; set; }
+
     }
 }
